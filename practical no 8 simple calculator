@@ -1,0 +1,50 @@
+// write a program to add,subtract,multiply & devide two number accepted by user by using switch
+// date :03_10_2022
+// name : firoz dabir
+#include <stdio.h>
+
+void main()
+{
+    int n1,n2,add,sub,mul,div,option;
+
+    printf("enter first number n1:");
+    scanf("%d",&n1);
+    printf("enter second number n2");
+    scanf("%d",&n2);
+    printf("\n menu");
+    printf("\n 1:adition");
+    printf("\n 2:substraction");
+    printf("\n 3:multiplication");
+    printf("\n 4:division");
+    printf("\n enter any one option(1-4)");
+    scanf("%d",&option);
+    
+         switch(option)
+         {
+             case 1:
+             add=n1+n2;
+             printf("addition of the two numbers is %d.",add);
+             break;
+             case 2:
+             sub=n1-n2;
+             printf("sbtraction of two numberis %d.",sub);
+             break;
+             case 3:
+             mul=n1*n2;
+             printf("multiplication of two numbers is %d.",mul);
+             break;
+             case 4:
+             printf("divisionof two numbers is %d.",div);
+             break;
+             default:
+         
+         printf("invalid option");
+             
+             
+             
+             
+             
+         }
+    
+
+}
