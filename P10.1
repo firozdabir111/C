@@ -1,0 +1,26 @@
+/*firoz dabir
+*/
+#include <stdio.h>
+void main() 
+{
+  
+   int marks[5];  
+   int i,sum=0, avg;
+   
+   
+    for(i=0;i<5;i++)
+    {
+     printf("enter %d marks :",i+1);
+     
+     scanf("%d",&marks[i]);
+     sum=sum+marks[i];
+    }
+     printf("output is \n");
+     for(i=0;i<5;i++)
+     {
+         printf("%d ", marks[i]);
+     }
+        printf("\nsum=%d",sum);
+        avg=sum/5;
+        printf("\n avg=%d" ,avg);
+    }
